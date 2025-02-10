@@ -35,7 +35,7 @@ export default function DraggableBlock({
 
   return (
     <div
-      className={`w-20 h-20 text-white flex items-center justify-center rounded-lg cursor-pointer absolute`}
+      className={`w-20 h-20 text-white flex items-center justify-center rounded-lg cursor-pointer absolute select-none text-center font-semibold`}
       style={{ left: position.x, top: position.y, backgroundColor: color }}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}

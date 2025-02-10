@@ -4,7 +4,7 @@ const randomColors = ["red", "blue", "green", "brown", "purple"];
 
 export default function App() {
   return (
-    <div className="">
+    <div>
       {randomColors.map((color, index) => {
         return (
           <DraggableBlock
