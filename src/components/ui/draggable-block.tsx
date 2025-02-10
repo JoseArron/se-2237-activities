@@ -21,8 +21,6 @@ export default function DraggableBlock({
       x: e.clientX - position.x,
       y: e.clientY - position.y,
     });
-    console.log(e.clientX, e.clientY);
-    console.log(position);
   };
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -31,7 +29,6 @@ export default function DraggableBlock({
       x: e.clientX - mousePos.x,
       y: e.clientY - mousePos.y,
     });
-    // console.log(e.clientX, e.clientY);
   };
 
   const handleMouseUp = () => setIsDragging(false);
