@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { translateToChinese } from "@utils/translateToChinese";
+import { translateToChinese } from "../utils/translateToChinese";
 
 const router = Router();
 

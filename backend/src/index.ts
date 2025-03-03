@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import translateRoute from "@routes/translate";
+import translateRoute from "./routes/translate";
 
 const app = express();
 

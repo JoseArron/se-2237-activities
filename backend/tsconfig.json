@@ -8,11 +8,7 @@
     "esModuleInterop": true,
     "noImplicitAny": true,
     "outDir": "./dist",
-    "rootDir": "./src",
-    "paths": {
-      "@routes/*": ["./src/routes/*"],
-      "@utils/*": ["./src/utils/*"]
-    }
+    "rootDir": "./src"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
