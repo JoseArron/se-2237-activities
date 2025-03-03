@@ -2,10 +2,12 @@
   "name": "se-2237-activity-1",
   "version": "1.0.0",
   "scripts": {
-    "dev": ""
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "install": "cd backend && npm install && cd ../client && npm install"
   },
   "type": "commonjs",
   "devDependencies": {
+    "concurrently": "^9.1.2",
     "prettier": "^3.5.3"
   }
 }
