@@ -17,7 +17,7 @@ router.post("/", (req, res) => {
   }
 
   res.status(200);
-  res.send({ message: translateToChinese(input) });
+  res.send({ output: translateToChinese(input) });
 });
 
 export default router;
