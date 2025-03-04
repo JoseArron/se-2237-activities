@@ -1,5 +1,5 @@
 {
-  "name": "se-2237-activity-1-backend",
+  "name": "se-2237-prelim-exams-backend",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon src/index.ts",

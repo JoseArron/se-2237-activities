@@ -4,7 +4,9 @@ import { employeesData } from "../utils/employeeData";
 const router = Router();
 
 router.get("/", (_req, res) => {
-  res.status(200).json(employeesData);
+  console.log("get emnployees");
+  res.status(200);
+  res.send(employeesData);
 });
 
 export default router;
