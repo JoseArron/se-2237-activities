@@ -1,13 +1,12 @@
 {
-  "name": "se-2237-activity-1",
+  "name": "se-2237-prelim-exams",
   "version": "1.0.0",
   "scripts": {
     "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
-    "install": "cd backend && npm install && cd ../frontend && npm install"
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
   },
   "type": "commonjs",
   "devDependencies": {
-    "concurrently": "^9.1.2",
-    "prettier": "^3.5.3"
+    "concurrently": "^9.1.2"
   }
 }
