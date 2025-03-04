@@ -9,5 +9,5 @@ export const employeesData: Employee[] = [
   {id: 6, name: "francy" , role: "Developer", salary: 100000},
   {id: 6, name: "kim" , role: "Project Manager", salary: 20000},
   {id: 6, name: "nich" , role: "Scrum Master", salary: 12200},
-  {id: 6, name: "francy" , role: "Product Owner", salary: 100000}
+  {id: 6, name: "patrick" , role: "Product Owner", salary: 100000}
 ]
