@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DraggableBlock from "./components/ui/draggable-block";
+import DraggableBlock from "./components/draggable-block";
 
 const randomColors = ["red", "blue", "green", "brown", "purple"];
 
