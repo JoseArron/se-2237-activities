@@ -12,5 +12,5 @@ app.use(express.json());
 app.use("/api/students", studentsRouter);
 
 app.listen(PORT, () => {
-  console.log(`Server is running at ${PORT}`);
+    console.log(`Server is running at ${PORT}`);
 });

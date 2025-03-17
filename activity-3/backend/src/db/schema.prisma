@@ -9,7 +9,7 @@ datasource db {
 }
 
 model Students {
-  id                    BigInt   @id(map: "students_pkey") @default(autoincrement())
+  id                    String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   firstName             String   @map("first_name")
   lastName              String   @map("last_name")
   groupName             String   @map("group_name")
