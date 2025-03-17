@@ -1,3 +1,3 @@
-# SE 2237 Activity 1 & 2
+# SE 2237 Prelim Exams
 
 Jose Arron Franz I. Suoberon
