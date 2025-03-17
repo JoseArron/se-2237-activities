@@ -17,12 +17,17 @@ export const StudentList = ({
                 key={student.id}
                 className="student-item bg-gray-100 p-4 rounded"
             >
-                <div className="student-info">
+                <div className="student-info flex gap-2">
                     <span className="text-lg">
                         {student.firstName} {student.lastName}
                     </span>
                     <span>Group: {student.groupName}</span>
                     <span>Role: {student.role}</span>
+                    <span>Expected Salary: {student.expectedSalary}</span>
+                    <span>
+                        Expected Date of Defense:{" "}
+                        {student.expectedDateOfDefense.split("T")[0]}
+                    </span>
                 </div>
                 <div className="student-actions flex gap-2">
                     <button

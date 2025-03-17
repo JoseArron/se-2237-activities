@@ -5,5 +5,5 @@ export interface Student {
     groupName: string;
     role: string;
     expectedSalary: number;
-    expectedDateOfDefense: Date;
+    expectedDateOfDefense: string;
 }

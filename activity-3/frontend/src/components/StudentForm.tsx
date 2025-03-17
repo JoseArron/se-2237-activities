@@ -32,9 +32,7 @@ export const StudentForm = ({ editingStudent, onCancel }: StudentFormProps) => {
         const student: Student = {
             ...studentData,
             expectedSalary: Number(studentData.expectedSalary),
-            expectedDateOfDefense: new Date(
-                studentData.expectedDateOfDefense as string,
-            ),
+            expectedDateOfDefense: studentData.expectedDateOfDefense,
         } as Student;
 
         if (editingStudent?.id) {
@@ -90,9 +88,7 @@ export const StudentForm = ({ editingStudent, onCancel }: StudentFormProps) => {
                 name="expectedDateOfDefense"
                 type="date"
                 defaultValue={
-                    editingStudent?.expectedDateOfDefense
-                        ?.toISOString()
-                        .split("T")[0]
+                    editingStudent?.expectedDateOfDefense.split("T")[0]
                 }
                 required
                 className="p-2 border border-gray-300 rounded"
