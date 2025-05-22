@@ -11,3 +11,5 @@ Jose Arron Franz I. Suoberon
 ## Exams
 
 ### [Prelim Exams](prelim-exams)
+
+### [Midterm Exams](midterm-exams)
